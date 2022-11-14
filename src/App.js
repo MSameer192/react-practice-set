@@ -1,11 +1,7 @@
 import './App.css';
-import Usestate from './components/Usestate';
-// import Input from './components/Input';
-// import Login from './components/Login';
-// import Footer from './components/Footer';
-// import Header from './components/Header';
-// import Note from './components/Note';
-// import notes from './notes';
+import Api from './components/API/Api';
+// import Usestate from './components/Usestate';
+
 
 
 // const createNotes = notes => {
@@ -25,6 +21,10 @@ function App() {
 
   return (
     <>
+
+
+      
+
       {/* <Header /> 
       <Footer />
       {notes.map(createNotes)} */}
@@ -34,9 +34,10 @@ function App() {
         }
       </div> */}
 
-      <Usestate />
+      {/* <Usestate /> */}
 
 
+    <Api />  
     </>
   );
 }
